@@ -8,11 +8,11 @@ int main(void)
 
     while(1)
         {
-        if(PINB & 0b00000010)
+        if(PINB & 0b00000010) // for switch(act as a passcode protected door)
         PORTC=PORTC&0b10111111;
 
         else
-        PORTC=PORTC|0b01000000;
+        PORTC=PORTC|0b01000000; //controlling in security room(for alert)
 
     }
     return 0;
