@@ -1,0 +1,18 @@
+HIGH LEVEL requirement
+
+AtMega328 microprocessor - A processor is ued to controlling all the Unit in Security System i.e Door and piezo sensor and also led and Buzzer that is connected in Security controlling room.
+
+5Volt Voltagesource - to power the ckt.
+
+LED - will be in controlling room.
+
+Switch-  act as a Door passcode opreated.
+
+Push switch - act as a Piezo sensor.
+
+
+LOW LEVEL Requirement
+
+voltmeter - to check voltage across ckt in simulation.
+
+resistor 100ohms.
